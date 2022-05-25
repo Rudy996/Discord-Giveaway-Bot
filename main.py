@@ -11,7 +11,7 @@ with open("token.txt", "r") as f:
     i = i - 1
 
 token = private
-smile = input("Smile(emrdy private): ")
+smile = input("Smile: ")
 num = len(token)
 
 def work(token, smile):
